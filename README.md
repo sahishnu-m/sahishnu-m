@@ -1,6 +1,6 @@
 # Sahishnu's Project Profile
 
-[![Projects](https://img.shields.io/badge/projects-2-2a78d6)](https://github.com/sahishnu-m?tab=repositories)
+[![Projects](https://img.shields.io/badge/projects-3-2a78d6)](https://github.com/sahishnu-m?tab=repositories)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://github.com/sahishnu-m?tab=repositories&language=python)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Machine Learning](https://img.shields.io/badge/machine%20learning-1baf7a)](https://github.com/sahishnu-m/tennis-match-predictor)
@@ -21,6 +21,21 @@ Each entry links to a live app and the code. Open **Preview** for a screenshot.
   <summary>Preview</summary>
 
   <img src="https://raw.githubusercontent.com/sahishnu-m/court-conditions/main/docs/app_screenshot.png" alt="Court Conditions app" width="600">
+
+  </details>
+
+---
+
+## M
+
+- [Menu Inflation Index](https://github.com/sahishnu-m/menu-inflation-index)
+  - **[Try it live](https://menu-inflation-index.streamlit.app)** · [View the code](https://github.com/sahishnu-m/menu-inflation-index)
+  - Measures what eating out costs in Reno and Sparks. Menu prices from 20 restaurants across three price tiers are collected monthly and turned into a chained Laspeyres price index built on a fixed basket of dishes, so the number moves only when prices move, then compared against the BLS CPI series for food away from home. Matches items through renames and portion-size changes, so a drink shrinking from 16oz to 12oz at the same price reads as the increase it is. Scraping treats robots.txt as binding and records the sites that decline; 16 of 20 permit it.
+  - `Python` `SQLite` `BeautifulSoup` `Altair` `Streamlit` `BLS API`
+  <details>
+  <summary>Preview</summary>
+
+  <img src="https://raw.githubusercontent.com/sahishnu-m/menu-inflation-index/main/docs/app_screenshot.png" alt="Menu Inflation Index app" width="600">
 
   </details>
 
