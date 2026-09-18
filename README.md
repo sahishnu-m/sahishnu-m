@@ -16,7 +16,7 @@ Each entry links to a live app and the code. Open **Preview** for a screenshot.
 - [Court Conditions](https://github.com/sahishnu-m/court-conditions)
   - **[Try it live](https://court-conditions.streamlit.app)** · [View the code](https://github.com/sahishnu-m/court-conditions)
   - Predicts whether outdoor tennis courts around Reno and Sparks are playable and free at a given hour, across 9 public courts. A rule-based score out of 100 shows its working for every deduction, covering recent rain on a drying curve, temperature bands, wind weighted toward gusts, daylight and lights, and an ice check that fires on cold combined with recent wet. A separate crowding model estimates how many courts will be open. Includes a 7-day hourly outlook and playable-hours-per-month from several years of historical weather.
-  - `Python` `Streamlit` `pandas` `Plotly` `Open-Meteo`
+  - `Python` `Streamlit` `pandas` `Altair` `Open-Meteo`
   <details>
   <summary>Preview</summary>
 
