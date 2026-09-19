@@ -44,7 +44,7 @@ Each entry links to a live app and the code. Open **Preview** for a screenshot.
 ## S
 
 - [School Start Times](https://github.com/sahishnu-m/school-start-times)
-  - **[Try it live](https://school-start-times.streamlit.app)** · [View the code](https://github.com/sahishnu-m/school-start-times)
+  - **[Try it live](https://school-start-time-impact.streamlit.app/)** · [View the code](https://github.com/sahishnu-m/school-start-times)
   - Tests whether high schools that start later show better academic results. The sample is 425 New York City high schools, chosen because the city publishes a start time for every school and because all of them sit inside one school system, so busing budgets, union contracts and state funding are held constant instead of being confounded with the clock. Estimates are reported first with no controls, then with poverty, size, English learners, disability, borough and admissions selectivity added one block at a time, with standard errors clustered on the school building. The finding is mostly null: graduation rate and attendance show nothing, while Advanced Regents diplomas move against later starts and college readiness moves with them, which reads as residual confounding rather than an effect. A second sample of 38 Nevada high schools is kept to show the failure mode, since 29 of them start at exactly 7:00 AM.
   - `Python` `pandas` `numpy` `Streamlit` `matplotlib` `NYC Open Data`
   <details>
