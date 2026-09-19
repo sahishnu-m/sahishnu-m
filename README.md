@@ -8,7 +8,7 @@ I build data and machine learning projects that turn public data into answers
 to specific questions, usually around sports and the Reno area. Each one ships
 as a working app with the method and the numbers laid out, not just a result.
 
-Each entry links to a live app and the code. Open **Preview** for a screenshot.
+Each entry links to a live app and the code, except one hardware project that was never finished and has neither. Open **Preview** for a screenshot where one exists.
 
 ---
 
@@ -69,6 +69,15 @@ Each entry links to a live app and the code. Open **Preview** for a screenshot.
   <img src="https://raw.githubusercontent.com/sahishnu-m/court-conditions/main/docs/app_screenshot.png" alt="Court Conditions app" width="600">
 
   </details>
+
+---
+
+- [Titration Liquid Separation Automation](https://github.com/sahishnu-m/titration-automation)
+  - [View the code](https://github.com/sahishnu-m/titration-automation)
+  - Automates a manual step of titration: shaking two containers, swapping their positions, then controlling flow through a polarity-reversing ball valve, using three stepper motors, two solenoids, and a flow meter wired in only as a circuit check.
+  - Built as a mechanical engineering research assistant at UNR under Prof. Menezes. Abandoned before the rig was fully assembled, so this repo is a post-mortem: the design, the original Arduino sketches, and the wiring and supply-voltage bug that looked like a software problem before it turned out not to be.
+  - There is no live app, no photograph of the finished rig, and no performance data, since the project never reached a working state; the next step, if it were picked back up, would be verifying supply voltage against each actuator's spec before writing any more control code.
+  - `Arduino` `C++` `Mechanical Engineering`
 
 ---
 
